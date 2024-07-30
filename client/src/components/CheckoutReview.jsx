@@ -135,7 +135,7 @@ const CheckoutReview = () => {
           description: "Tutorial of RazorPay",
           image: "https://avatars.githubusercontent.com/u/25058652?v=4",
           order_id: order.id,
-          callback_url: "http://localhost:5000/api/payment/paymentverification",
+          callback_url: "https://gofood-hp8t.onrender.com/api/payment/paymentverification",
           prefill: {
               name: "Gaurav Kumar",
               email: userEmail,
@@ -201,8 +201,8 @@ const CheckoutReview = () => {
             'prefill[contact]': '9123456780',
             'prefill[email]': 'gaurav.kumar@example.com',
             'notes[shipping address]': 'L-16, The Business Centre, 61 Wellfield Road, New Delhi - 110001',
-            callback_url: "http://localhost:5000/api/payment/paymentverification",
-            cancel_url: "http://localhost:5000/api/payment/cancel"
+            callback_url: "https://gofood-hp8t.onrender.com/api/payment/paymentverification",
+            cancel_url: "https://gofood-hp8t.onrender.com/api/payment/cancel"
         };
 
         // Make the POST request through dynamic form

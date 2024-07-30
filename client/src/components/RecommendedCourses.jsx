@@ -59,7 +59,7 @@ const RecommendedCourses = ({ category }) => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/courses");
+        const res = await axios.get("https://gofood-hp8t.onrender.com/api/courses");
         setCourses(res.data); // Set courses from the server response
       } catch (err) {
         console.error("Error fetching courses:", err);

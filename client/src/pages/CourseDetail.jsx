@@ -10,7 +10,7 @@ function CourseDetail() {
     // Function to fetch course details from the API
     const fetchCourse = async () => {
       try {
-        const res = await axios.get(`http://localhost:5000/api/courses/find/${id}`);
+        const res = await axios.get(`https://gofood-hp8t.onrender.com/api/courses/find/${id}`);
         setCourse(res.data); // Set course data to state
       } catch (err) {
         console.error('Error fetching the course details:', err);

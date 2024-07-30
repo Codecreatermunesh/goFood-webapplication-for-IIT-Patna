@@ -11,7 +11,7 @@ function Offer() {
   useEffect(() => {
     const getCourses = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/courses");
+        const res = await axios.get("https://gofood-hp8t.onrender.com/api/courses");
         setList(res.data); // Set courses from the server response
         setFilteredCourses(res.data); // Initially display all courses
       } catch (err) {

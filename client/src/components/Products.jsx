@@ -93,7 +93,7 @@ const Products = () => {
   useEffect(() => {
     const getProducts = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/products");
+        const res = await axios.get("https://gofood-hp8t.onrender.com/api/products");
         setProducts(res.data);
       } catch (err) {
         console.error(err);
