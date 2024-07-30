@@ -1,0 +1,16 @@
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    width: 100px;
+    height: 100px;
+  }

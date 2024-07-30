@@ -1,0 +1,8 @@
+.env
+
+MONGO_URL = 
+PASS_SEC = 
+JWT_SEC =
+
+
+node_modules
