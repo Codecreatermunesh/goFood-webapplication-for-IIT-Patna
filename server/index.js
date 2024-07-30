@@ -32,7 +32,7 @@ export const instance = new Razorpay({
 
 app.set('view engine', 'ejs');
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://gofood-three.vercel.app/',
     credentials: true, // Allow cookies
 }));    
 app.use(json());

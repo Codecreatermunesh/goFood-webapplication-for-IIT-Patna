@@ -113,7 +113,7 @@ router.post("/paymentverification", async (req, res) => {
         );
     
         res.redirect(
-          `http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`
+          `https://gofood-three.vercel.app/paymentsuccess?reference=${razorpay_payment_id}`
         );
       } else {
         console.log(productlist);
@@ -183,7 +183,7 @@ export default router;
 //       });
   
 //       res.redirect(
-//         `http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`
+//         `https://gofood-three.vercel.app/paymentsuccess?reference=${razorpay_payment_id}`
 //       );
 //     } else {
 //       res.status(400).json({

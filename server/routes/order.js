@@ -23,7 +23,7 @@ const parseProductString = (productString) => {
 router.post("/", verifyToken, async (req, res) => {
   //const newOrder = new Order(req.body);
 
-  //console.log("open");
+  // console.log("open");
 
   const { productlist, orderId, amount, userEmail, address } = req.body;
 

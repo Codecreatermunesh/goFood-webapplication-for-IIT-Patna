@@ -19,7 +19,7 @@ const sendVerifyMail = async (name, email, userid) => {
       to: email,
       from: 'your-email@example.com', // Use the email address or domain you verified with SendGrid
       subject: 'Verify Account',
-      html: `<p>Hi ${name}, click <a href='http://localhost:5000/api/auth/verify?id=${userid}'>here</a> to verify your account.</p>`,
+      html: `<p>Hi ${name}, click <a href='https://gofood-hp8t.onrender.com/api/auth/verify?id=${userid}'>here</a> to verify your account.</p>`,
     };
 
     await sgMail.send(msg);
