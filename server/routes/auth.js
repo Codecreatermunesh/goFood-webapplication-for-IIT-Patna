@@ -100,6 +100,8 @@ router.post("/login", async(req,res)=>{
         Date.now() + 3 * 24 * 60 * 60 * 1000
       ),
       httpOnly: true,
+      secure:true,
+      sameSite: 'none',
     };
 
     res.status(200).cookie("token", accessToken, options).json({
