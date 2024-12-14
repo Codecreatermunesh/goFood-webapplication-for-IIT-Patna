@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import contactImage1 from "../Images/profile.jpeg";
+import contactImage1 from "../Images/contact_munesh.jpeg";
 // import contactImage2 from "../Images/contactImage2.jpg";
 // import contactImage3 from "../Images/contactImage3.jpg";
 // import contactImage4 from "../Images/contactImage4.jpg";
@@ -141,7 +141,7 @@ function Contact() {
     <Container>
       <FlexWrap>
         <ImageGrid>
-          <LargeImage />
+{/*           <LargeImage /> */}
           {/* <BottomLeftImage />
           <BottomRightTopImage />
           <BottomRightBottomImage /> */}
