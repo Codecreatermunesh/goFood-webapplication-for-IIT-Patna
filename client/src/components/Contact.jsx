@@ -141,7 +141,7 @@ function Contact() {
     <Container>
       <FlexWrap>
         <ImageGrid>
-{/*           <LargeImage /> */}
+          <LargeImage />
           {/* <BottomLeftImage />
           <BottomRightTopImage />
           <BottomRightBottomImage /> */}
