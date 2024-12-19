@@ -133,11 +133,11 @@ const CheckoutReview = () => {
           currency: "INR",
           name: "Munesh",
           description: "Tutorial of RazorPay",
-          image: "https://avatars.githubusercontent.com/u/25058652?v=4",
+          image: "",//image
           order_id: order.id,
           callback_url: "https://gofood-hp8t.onrender.com/api/payment/paymentverification",
           prefill: {
-              name: "Gaurav Kumar",
+              name: "Munesh Meena",
               email: userEmail,
               contact: "9999999999"
           },
