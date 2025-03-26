@@ -36,7 +36,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready.
 
-# goFood-webapplication-for-IIT-Patna (Food_Delivery)
+# goFood-webapplication(Food_App)
 
 Created By Munesh Meena. I have been working on this project for the last 6 months. But finally successfully completed this project. Special Thanks to my friends, Mankesh Meena, Rishit, and Ronak Jain, for clearing my doubts during the project.
 
